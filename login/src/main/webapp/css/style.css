@@ -1,0 +1,42 @@
+@charset "UTF-8";
+* {
+	padding:0;
+	margin:0;
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+}
+nav {
+	height:10vh;
+	background-color: rgba(0, 255, 0, 0.2);
+}
+
+section{
+	height:70vh;
+	overflow-y:auto;
+}
+
+footer{
+	height:20vh;
+	background-color: rgba(0,255,255,0.3);
+	text-align: center;
+	vertical-align: middle;
+	line-height:20vh;	
+}
+
+.navbar{ 
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;	
+	list-style: none;
+	justify-content: center;
+	height:100%;
+	
+}
+.navbar > li {	
+		margin: 0px 10px; /* 간격 */ 
+		padding: 12px 8px;
+		text-align:center;
+		height:auto;
+		border:1px solid red;
+}
